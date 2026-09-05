@@ -302,7 +302,7 @@ export default function VasyaSite() {
               {projects.map((project) => (
                 <Link className="project-card" href={`/projects/${project.slug}`} key={project.slug} data-reveal>
                   <div className="project-card__media">
-                    <img src={project.thumb} alt={project.title} />
+                    <img src={project.cover} alt={project.title} />
                     <span className="project-card__kind">{project.kind}</span>
                   </div>
                   <div className="project-card__meta">
